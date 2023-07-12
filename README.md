@@ -4,7 +4,7 @@
 
 ![Marc Mauillon](th.jpg "MM")
 
-[x] On aime Marc Mauillon
+- [x] On aime Marc Mauillon
 
 ![Marc Mauillon](th2.jpg "MM")
 ![Marc Mauillon](th3.webp "MM")
