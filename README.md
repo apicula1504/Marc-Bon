@@ -16,6 +16,10 @@
 
 ![Marc Mauillon](th3.webp "MM c'est le plus intelligent")
 
-(ceci n'est pas le site d'une fangirl (si si j'vous jure))
+Petite citation :
+> "Dieux cruels, pourquoi tant de haine ?"
+> Marc Mauillon
 
 ![Marc Mauillon](th3.jpg "MM c'est le plus mignon")
+
+(ceci n'est pas le site d'une fangirl (si si j'vous jure))
