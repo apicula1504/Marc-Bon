@@ -7,12 +7,12 @@
     <div class="container">
         <h1>Marc Mauillon</h1>
         <h2><a href="http://marcmauillon.com/">Allez voir ça !</a></h2>
-        <button onclick="myFunction()"><img src="th.jpg" alt="Marc Mauillon" title="MM c'est le plus beau"></button>
+        <button onclick="myFunction("BONJOUR")"><img src="th.jpg" alt="Marc Mauillon" title="MM c'est le plus beau"></button>
         <p>Petite citation :</p>
         <blockquote>
             <p><em>Dieux cruels pourquoi tant de haine ?</em> - Marc Mauillon</p>
         </blockquote>
-        <button onclick="myFunction()"><img src="th2.jpg" alt="Marc Mauillon" title="MM c'est le plus fort"></button>
+        <button onclick="myFunction("BONJOUR")"><img src="th2.jpg" alt="Marc Mauillon" title="MM c'est le plus fort"></button>
         <table>
             <thead>
                 <tr>
@@ -39,7 +39,7 @@
                 </tr>
             </tbody>
         </table>
-        <button onclick="myFunction()"><img src="th3.webp" alt="Marc Mauillon" title="MM c'est le plus intelligent"></button>
+        <button onclick="myFunction("BONJOUR")"><img src="th3.webp" alt="Marc Mauillon" title="MM c'est le plus intelligent"></button>
         <div>
             <input type="checkbox" id="check" checked disabled>
             <label for="check">On aime Marc Mauillon</label>
@@ -48,8 +48,13 @@
             <input type="checkbox" id="check2">
             <label for="check2">Etes-vous frustré de ne pas pouvoir toucher le bouton du dessus ? (ce n'est pas mon problème mais vous pouvez vous défouler sur celui-ci à votre bon vouloir)</label>
         </div>
-        <button onclick="myFunction()"><img src="th3.jpg" alt="Marc Mauillon" title="MM c'est le plus mignon"></button>
+        <button onclick="myFunction("BONJOUR")"><img src="th3.jpg" alt="Marc Mauillon" title="MM c'est le plus mignon"></button>
         <p>(ceci n'est pas le site d'une fangirl (si si j'vous jure))</p>
     </div>
+    <script>
+    function myFunction(content) {
+        alert(content);
+    }
+    </script>
 </body>
 </html>
