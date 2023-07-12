@@ -1,6 +1,6 @@
-## Marc Mauillon
+# Marc Mauillon
 
-# [Allez voir ça !](http://marcmauillon.com/)
+## [Allez voir ça !](http://marcmauillon.com/)
 
 ![Marc Mauillon](th.jpg "MM c'est le plus beau")
 
