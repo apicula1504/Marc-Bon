@@ -1,6 +1,6 @@
 # Marc Mauillon
 
-[lien](http://marcmauillon.com/)
+[Allez voir ça !](http://marcmauillon.com/)
 
 ![Marc Mauillon](th.jpg "MM")
 ![Marc Mauillon](th2.jpg "MM")
