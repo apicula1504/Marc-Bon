@@ -7,6 +7,15 @@
             display: none;
         }
     </style>
+    <script>
+        function choisirLeBonBon() {
+            var heure=new Date().getHours();
+            if(heure>=18 && heure<22) {document.getElementById("bs").style.display = "auto";}
+            else if (heure>=8 && heure<12) {document.getElementById("bm").style.display = "auto";}
+            else if (heure>=12 && heure<18) {document.getElementById("bj").style.display = "auto";}
+            else {document.getElementById("bn").style.display = "auto";}
+        }
+    </script>
 </head>
 <body onload="choisirLeBonBon()">
     <div class="container">
@@ -69,13 +78,7 @@
     function bonNuit() {
         alert("BONNUIT");
     }
-    function choisirLeBonBon() {
-        var heure=new Date().getHours();
-        if(heure>=18 && heure<22) {document.getElementById("bs").style.display = "auto";}
-        else if (heure>=8 && heure<12) {document.getElementById("bm").style.display = "auto";}
-        else if (heure>=12 && heure<18) {document.getElementById("bj").style.display = "auto";}
-        else {document.getElementById("bn").style.display = "auto";}
-    }
+    
     </script>
 </body>
 </html>
