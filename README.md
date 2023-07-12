@@ -17,7 +17,9 @@
 ![Marc Mauillon](th3.webp "MM c'est le plus intelligent")
 
 Petite citation :
-> "Dieux cruels, pourquoi tant de haine ?" - Marc Mauillon
+> "Dieux cruels, pourquoi tant de haine ?"
+> 
+> Marc Mauillon
 
 ![Marc Mauillon](th3.jpg "MM c'est le plus mignon")
 
