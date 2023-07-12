@@ -4,7 +4,8 @@
 
 ![Marc Mauillon](th.jpg "MM c'est le plus beau")
 
-- [x] On aime Marc Mauillon
+Petite citation :
+> "Dieux cruels, pourquoi tant de haine ?" - Marc Mauillon
 
 ![Marc Mauillon](th2.jpg "MM c'est le plus fort")
 
@@ -16,8 +17,7 @@
 
 ![Marc Mauillon](th3.webp "MM c'est le plus intelligent")
 
-Petite citation :
-> "Dieux cruels, pourquoi tant de haine ?" - Marc Mauillon
+- [x] On aime Marc Mauillon
 
 ![Marc Mauillon](th3.jpg "MM c'est le plus mignon")
 
