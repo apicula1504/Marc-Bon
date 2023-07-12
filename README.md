@@ -5,9 +5,6 @@
 ![Marc Mauillon](th.jpg "MM c'est le plus beau")
 
 - [x] On aime Marc Mauillon
-Liste à cocher:
- - [ ] Case non cochée
- - [x] Case cochée
 
 ![Marc Mauillon](th2.jpg "MM c'est le plus fort")
 ![Marc Mauillon](th3.webp "MM c'est le plus intelligent")
