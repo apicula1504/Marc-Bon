@@ -2,17 +2,22 @@
 <html>
 <head>
     <title>Marc Bonnuit</title>
+    <style>
+        button {
+            display: none;
+        }
+    </style>
 </head>
-<body>
+<body onload="choisirLeBonBon()">
     <div class="container">
         <h1>Marc Mauillon</h1>
         <h2><a href="http://marcmauillon.com/">Allez voir ça !</a></h2>
-        <button onclick="bonJour()"><img src="th.jpg" alt="Marc Mauillon" title="MM c'est le plus beau"></button>
+        <button onclick="bonJour()" id="bj"><img src="th.jpg" alt="Marc Mauillon" title="MM c'est le plus beau"></button>
         <p>Petite citation :</p>
         <blockquote>
             <p><em>Dieux cruels pourquoi tant de haine ?</em> - Marc Mauillon</p>
         </blockquote>
-        <button onclick="bonNuit()"><img src="th2.jpg" alt="Marc Mauillon" title="MM c'est le plus fort"></button>
+        <button onclick="bonNuit()" id="bn"><img src="th2.jpg" alt="Marc Mauillon" title="MM c'est le plus fort"></button>
         <table>
             <thead>
                 <tr>
@@ -39,7 +44,7 @@
                 </tr>
             </tbody>
         </table>
-        <button onclick="bonMatin()"><img src="th3.webp" alt="Marc Mauillon" title="MM c'est le plus intelligent"></button>
+        <button onclick="bonMatin()" id="bm"><img src="th3.webp" alt="Marc Mauillon" title="MM c'est le plus intelligent"></button>
         <div>
             <input type="checkbox" id="check" checked disabled>
             <label for="check">On aime Marc Mauillon</label>
@@ -48,7 +53,7 @@
             <input type="checkbox" id="check2">
             <label for="check2">Etes-vous frustré de ne pas pouvoir toucher le bouton du dessus ? (ce n'est pas mon problème mais vous pouvez vous défouler sur celui-ci à votre bon vouloir)</label>
         </div>
-        <button onclick="bonSoir()"><img src="th3.jpg" alt="Marc Mauillon" title="MM c'est le plus mignon"></button>
+        <button onclick="bonSoir()" id="bs"><img src="th3.jpg" alt="Marc Mauillon" title="MM c'est le plus mignon"></button>
         <p>(ceci n'est pas le site d'une fangirl (si si j'vous jure))</p>
     </div>
     <script>
@@ -63,6 +68,13 @@
     }
     function bonNuit() {
         alert("BONNUIT");
+    }
+    function choisirLeBonBon() {
+        var heure=new Date().getHours();
+        if(heure>=18 && heure<22) {document.getElementById("bs").style.display = "auto";}
+        else if (heure>=8 && heure<12) {document.getElementById("bm").style.display = "auto";}
+        else if (heure>=12 && heure<18) {document.getElementById("bj").style.display = "auto";}
+        else {document.getElementById("bn").style.display = "auto";}
     }
     </script>
 </body>
